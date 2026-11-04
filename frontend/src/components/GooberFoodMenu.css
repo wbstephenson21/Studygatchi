@@ -67,11 +67,16 @@
 }
 
 
-.studygatchi-button:hover:not(:disabled) {
+
+.goober-page-button:not(:disabled):hover {
     outline: 2px solid currentColor;
     outline-offset: 2px;
 }
 
+.goober-page-button:disabled {
+    outline: none;
+    opacity: 0.5;
+}
 
 .goober-food-empty {
     grid-column: 1 / -1;
